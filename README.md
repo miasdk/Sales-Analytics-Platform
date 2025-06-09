@@ -39,10 +39,10 @@
 
 ## Project Overview
 
-Sales Analytics Platform is an enterprise-grade business intelligence solution that transforms raw e-commerce data into actionable insights through advanced analytics and machine learning. Built to demonstrate full-stack data science capabilities, the platform showcases end-to-end data pipeline development from database design to predictive modeling and interactive visualization.
+Sales Analytics Platform is a business intelligence solution that transforms raw e-commerce data into actionable insights through advanced analytics and machine learning. Built to demonstrate full-stack data science capabilities, the platform showcases end-to-end data pipeline development from database design to predictive modeling and interactive visualization.
 
 **Project Goals:**
-- **Technical Demonstration** - Showcase advanced data science and engineering skills for internship applications
+- **Technical Demonstration** - Showcase advanced data science and engineering skills 
 - **Business Intelligence** - Generate actionable insights from sales data with quantified impact
 - **Production Readiness** - Build scalable, maintainable code suitable for enterprise deployment
 - **Portfolio Enhancement** - Create interview-ready project with live demo capabilities
@@ -54,7 +54,7 @@ Sales Analytics Platform is an enterprise-grade business intelligence solution t
 | Feature | Technology | Status |
 |---------|------------|--------|
 | **Database Architecture** | PostgreSQL + Analytics Views | ![In Progress](https://img.shields.io/badge/🟡-In_Progress-yellow) |
-| **Data Generation** | Python + Faker | ![Complete](https://img.shields.io/badge/🟢-Complete-success) |
+| **Data Generation** | Python + Faker | ![In Progress](https://img.shields.io/badge/🟡-In_Progress-yellow) |
 | **Sales Analytics** | pandas + SQL | ![In Progress](https://img.shields.io/badge/🟡-In_Progress-yellow) |
 | **Customer Segmentation** | RFM Analysis + K-Means | ![In Progress](https://img.shields.io/badge/🟡-In_Progress-yellow) |
 | **ML Forecasting** | scikit-learn + Time Series | ![Planned](https://img.shields.io/badge/🔵-Planned-blue) |
@@ -514,7 +514,7 @@ export LOG_LEVEL="INFO"
 
 ## Future Enhancements
 
-### Phase 2 Development (Post-Internship Applications)
+### Phase 2 Development 
 - **Real-time Analytics** - Apache Kafka integration for streaming data processing
 - **Advanced ML Models** - Deep learning for demand forecasting and recommendation engines
 - **Cloud Deployment** - AWS/GCP deployment with auto-scaling and monitoring
@@ -533,38 +533,6 @@ export LOG_LEVEL="INFO"
 - **Marketing Attribution** - Multi-touch attribution modeling for marketing ROI
 
 ---
-
-## Portfolio Impact
-
-### Internship Application Advantages
-
-**Technical Differentiation**
-- **Full-Stack Data Science** - Demonstrates end-to-end capabilities from database to dashboard
-- **Business Acumen** - Shows understanding of real-world business problems and solutions
-- **Production Quality** - Enterprise-grade code quality and documentation standards
-- **Quantified Impact** - Measurable business insights with dollar amounts and percentages
-
-**Interview Readiness**
-- **Live Demo Capability** - Functional dashboard for interactive presentations
-- **Technical Deep Dives** - Complex architecture and algorithm discussions
-- **Business Case Studies** - Real insights and actionable recommendations
-- **Problem-Solving Examples** - Challenging technical problems solved during development
-
-**Role Positioning**
-This project qualifies you for multiple high-value roles:
-- **Data Scientist** - ML modeling and statistical analysis capabilities
-- **Software Engineer (Data Focus)** - Full-stack development with data expertise
-- **Business Intelligence Engineer** - Dashboard development and analytics architecture
-- **Product Analyst** - Customer segmentation and business metrics expertise
-
-### Key Metrics to Highlight
-- **$2.4M+ in transaction data** analyzed across comprehensive business metrics
-- **85%+ model accuracy** for sales forecasting and customer prediction
-- **5 distinct customer segments** identified with targeted business strategies
-- **Sub-second query performance** on large datasets through optimization
-
----
-
 ## About This Project
 
 **Developer**: Mia Tapia  
