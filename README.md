@@ -4,100 +4,86 @@
 
 **A comprehensive data analytics platform with machine learning predictions and interactive dashboards**
 
-[![Development Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)](https://github.com/yourusername/sales-analytics-platform)
+[![Development Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)](https://github.com/miasdk/sales-analytics-platform)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)](https://python.org)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13+-blue?style=for-the-badge&logo=postgresql)](https://postgresql.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)](https://streamlit.io)
 
-**🚧 PROJECT IN ACTIVE DEVELOPMENT 🚧**
+**PROJECT IN ACTIVE DEVELOPMENT**
 
-[View Progress](#development-progress) • [Technical Documentation](#technical-architecture) • [Report Issues](https://github.com/yourusername/sales-analytics-platform/issues)
+[View Progress](#development-progress) • [Technical Documentation](#technical-architecture) • [Report Issues](https://github.com/miasdk/sales-analytics-platform/issues)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Development Progress](#development-progress)
 - [Core Capabilities](#core-capabilities)
 - [Technology Stack](#technology-stack)
 - [Technical Architecture](#technical-architecture)
-- [Database Design & Analytics](#database-design--analytics)
+- [Database Design](#database-design)
 - [Machine Learning Models](#machine-learning-models)
 - [Interactive Dashboard](#interactive-dashboard)
-- [Screenshots](#screenshots)
 - [Getting Started](#getting-started)
 - [Implementation Timeline](#implementation-timeline)
 - [Technical Achievements](#technical-achievements)
 - [Future Enhancements](#future-enhancements)
-- [Portfolio Impact](#portfolio-impact)
 - [About This Project](#about-this-project)
-- [License](#license)
 - [Contact](#contact)
 
 ## Project Overview
 
-Sales Analytics Platform is a business intelligence solution that transforms raw e-commerce data into actionable insights through advanced analytics and machine learning. Built to demonstrate full-stack data science capabilities, the platform showcases end-to-end data pipeline development from database design to predictive modeling and interactive visualization.
+The Sales Analytics Platform is a business intelligence solution that transforms e-commerce transaction data into actionable insights through advanced analytics and machine learning. This project demonstrates end-to-end data science capabilities, from database architecture to predictive modeling and executive dashboard development.
 
-**Project Goals:**
-- **Technical Demonstration** - Showcase advanced data science and engineering skills 
-- **Business Intelligence** - Generate actionable insights from sales data with quantified impact
-- **Production Readiness** - Build scalable, maintainable code suitable for enterprise deployment
-- **Portfolio Enhancement** - Create interview-ready project with live demo capabilities
+The platform processes over 100,000 synthetic transactions to generate realistic business scenarios, enabling comprehensive analysis of sales trends, customer behavior, and product performance. Built with production-grade architecture, the system showcases enterprise-level data engineering practices while maintaining code quality suitable for team collaboration.
+
+**Key Objectives:**
+- Demonstrate full-stack data science capabilities for technical interviews
+- Build production-ready analytics infrastructure with proper testing and documentation
+- Generate quantifiable business insights with measurable impact on key performance indicators
+- Create interactive visualizations that translate complex data into executive-level decision tools
 
 ### Core Capabilities
 
-<div align="center">
-
 | Feature | Technology | Status |
 |---------|------------|--------|
-| **Database Architecture** | PostgreSQL + Analytics Views | ![In Progress](https://img.shields.io/badge/🟡-In_Progress-yellow) |
-| **Data Generation** | Python + Faker | ![In Progress](https://img.shields.io/badge/🟡-In_Progress-yellow) |
-| **Sales Analytics** | pandas + SQL | ![In Progress](https://img.shields.io/badge/🟡-In_Progress-yellow) |
-| **Customer Segmentation** | RFM Analysis + K-Means | ![In Progress](https://img.shields.io/badge/🟡-In_Progress-yellow) |
-| **ML Forecasting** | scikit-learn + Time Series | ![Planned](https://img.shields.io/badge/🔵-Planned-blue) |
-| **Interactive Dashboard** | Streamlit + Plotly | ![Planned](https://img.shields.io/badge/🔵-Planned-blue) |
-| **Documentation** | Professional README + Docs | ![In Progress](https://img.shields.io/badge/🟡-In_Progress-yellow) |
+| **Database Architecture** | PostgreSQL + Analytics Views | ![Planned](https://img.shields.io/badge/Planned-blue) |
+| **Data Generation** | Python + Faker | ![Planned](https://img.shields.io/badge/Planned-blue) |
+| **Sales Analytics** | pandas + SQL | ![Planned](https://img.shields.io/badge/Planned-blue) |
+| **Customer Segmentation** | RFM Analysis + K-Means | ![Planned](https://img.shields.io/badge/Planned-blue) |
+| **ML Forecasting** | scikit-learn + Time Series | ![Planned](https://img.shields.io/badge/Planned-blue) |
+| **Interactive Dashboard** | Streamlit + Plotly | ![Planned](https://img.shields.io/badge/Planned-blue) |
 
-</div>
-
-**Advanced Analytics Features**
-- **Revenue Intelligence** - Comprehensive sales performance tracking with YoY growth analysis and seasonal pattern detection
-- **Customer Segmentation** - RFM analysis identifying Champions, Loyal Customers, At-Risk, and Lost customer segments
-- **Predictive Modeling** - Sales forecasting, customer lifetime value prediction, and churn risk assessment
-- **Product Analytics** - Performance analysis, inventory optimization, and cross-sell opportunity identification
-- **Geographic Insights** - Regional performance analysis and market penetration metrics
-- **Executive Dashboards** - C-level visualizations with KPI tracking and automated reporting
-- **ML-Powered Forecasting** - 90-day revenue predictions with 85%+ accuracy using ensemble methods
-- **Business Intelligence** - Automated insight generation with actionable recommendations
+**Analytics Features**
+- Revenue trend analysis with year-over-year growth tracking and seasonal pattern identification
+- Customer segmentation using RFM methodology to identify high-value segments and at-risk customers
+- Predictive modeling for sales forecasting, customer lifetime value estimation, and churn prediction
+- Product performance analysis including profitability metrics and inventory optimization insights
+- Geographic sales analysis for regional performance evaluation and market expansion opportunities
+- Executive dashboard with automated insight generation and key performance indicator monitoring
 
 ---
 
 ## Development Progress
 
-> **Current Status**: Active development phase with core analytics engine implementation
+**Current Status**: Project initialization phase with technical architecture planning complete
 
 | Phase | Timeline | Status | Deliverables |
 |-------|----------|--------|--------------|
-| **Phase 1: Foundation** | Days 1-2 | ![Complete](https://img.shields.io/badge/🟢-Complete-success) | Database schema, synthetic data generation |
-| **Phase 2: Analytics Engine** | Days 3-4 | ![In Progress](https://img.shields.io/badge/🟡-In_Progress-yellow) | Sales analytics, customer segmentation |
-| **Phase 3: ML Models** | Days 5-6 | ![Planned](https://img.shields.io/badge/🔵-Planned-blue) | Forecasting, CLV prediction, churn analysis |
-| **Phase 4: Dashboard** | Day 7 | ![Planned](https://img.shields.io/badge/🔵-Planned-blue) | Streamlit app, visualizations, deployment |
-| **Phase 5: Documentation** | Ongoing | ![In Progress](https://img.shields.io/badge/🟡-In_Progress-yellow) | Technical docs, portfolio preparation |
+| **Phase 1: Foundation** | Days 1-2 | ![Planned](https://img.shields.io/badge/Planned-blue) | Database schema, synthetic data generation |
+| **Phase 2: Analytics Engine** | Days 3-4 | ![Planned](https://img.shields.io/badge/Planned-blue) | Sales analytics, customer segmentation |
+| **Phase 3: ML Models** | Days 5-6 | ![Planned](https://img.shields.io/badge/Planned-blue) | Forecasting, CLV prediction, churn analysis |
+| **Phase 4: Dashboard** | Day 7 | ![Planned](https://img.shields.io/badge/Planned-blue) | Streamlit app, visualizations, deployment |
 
-### Recent Milestones ✅
-- ✅ **Database Schema Designed** - Optimized PostgreSQL schema with proper indexing and views
-- ✅ **Synthetic Data Generated** - 100,000+ realistic transactions across 5,000 customers and 1,000 products
-- ✅ **Analytics Foundation Built** - Core sales analytics and customer segmentation framework
-- ✅ **Technical Architecture Finalized** - Scalable, maintainable codebase structure
-
-### Next Milestones 🎯
-- 🎯 **Complete Analytics Engine** - Finish sales trends, seasonality, and geographic analysis
-- 🎯 **Implement ML Models** - Build forecasting and prediction models with performance metrics
-- 🎯 **Launch Interactive Dashboard** - Deploy Streamlit app with real-time data visualization
-- 🎯 **Portfolio Documentation** - Professional README and technical documentation
+### Development Roadmap
+- Database foundation with optimized schema design and synthetic data generation
+- Core analytics engine for sales performance and customer behavior analysis
+- Machine learning pipeline implementation with model validation and performance metrics
+- Interactive dashboard development with executive-level visualizations and insights
+- Technical documentation and deployment preparation for portfolio presentation
 
 ---
 
@@ -109,23 +95,23 @@ Sales Analytics Platform is a business intelligence solution that transforms raw
 
 **Data & Analytics**
 ```
-Python 3.9+       → Core language
-pandas 2.1.3      → Data manipulation
-NumPy 1.25.2      → Numerical computing
-scikit-learn 1.3  → Machine learning
-matplotlib 3.8    → Static visualization
-seaborn 0.13      → Statistical plots
-plotly 5.17       → Interactive charts
+Python 3.9+       → Core programming language
+pandas 2.1.3      → Data manipulation and analysis
+NumPy 1.25.2      → Numerical computing operations
+scikit-learn 1.3  → Machine learning algorithms
+matplotlib 3.8    → Statistical visualizations
+seaborn 0.13      → Advanced plotting capabilities
+plotly 5.17       → Interactive chart generation
 ```
 
 </td>
 <td>
 
-**Database & Storage**
+**Database & Infrastructure**
 ```
-PostgreSQL 13+    → Primary database
-psycopg2 2.9      → Database connector
-SQLAlchemy 2.0    → ORM and migrations
+PostgreSQL 13+    → Primary data storage
+psycopg2 2.9      → Database connectivity
+SQLAlchemy 2.0    → Object-relational mapping
 ```
 
 </td>
@@ -133,22 +119,22 @@ SQLAlchemy 2.0    → ORM and migrations
 <tr>
 <td>
 
-**Web & Dashboard**
+**Web Application**
 ```
-Streamlit 1.28    → Interactive dashboard
-Plotly Dash       → Advanced visualizations
-HTML/CSS/JS       → Custom components
+Streamlit 1.28    → Dashboard framework
+Plotly Dash       → Advanced web visualizations
+HTML/CSS/JS       → Custom interface components
 ```
 
 </td>
 <td>
 
-**Development Tools**
+**Development Environment**
 ```
-Jupyter Notebook  → Data exploration
-Git               → Version control
-pytest            → Testing framework
-Docker            → Containerization
+Jupyter Notebook  → Data exploration and prototyping
+Git               → Version control and collaboration
+pytest            → Automated testing framework
+Docker            → Environment containerization
 ```
 
 </td>
@@ -159,121 +145,126 @@ Docker            → Containerization
 
 ## Technical Architecture
 
-### System Architecture
+The platform follows a modular architecture with clear separation between data processing, analytics computation, and presentation layers. This design enables independent development and testing of each component while maintaining system cohesion through well-defined interfaces.
 
 ```mermaid
 graph TB
     subgraph "Data Layer"
-        A[PostgreSQL Database<br/>100K+ Transactions]
-        B[Synthetic Data Generator<br/>Faker + Custom Logic]
-        C[Analytics Views<br/>Materialized Views]
+        A[PostgreSQL Database<br/>Transaction Storage]
+        B[Synthetic Data Generator<br/>Realistic Business Patterns]
+        C[Analytics Views<br/>Optimized Queries]
     end
     
     subgraph "Analytics Engine"
-        D[Sales Analytics<br/>Revenue & Trends]
-        E[Customer Analytics<br/>RFM Segmentation]
-        F[Product Analytics<br/>Performance & Inventory]
-        G[Geographic Analytics<br/>Regional Performance]
+        D[Sales Analytics<br/>Revenue Trends]
+        E[Customer Analytics<br/>Segmentation Models]
+        F[Product Analytics<br/>Performance Metrics]
     end
     
     subgraph "ML Pipeline"
-        H[Sales Forecasting<br/>Time Series Models]
-        I[Customer Lifetime Value<br/>Regression Models]
-        J[Churn Prediction<br/>Classification Models]
-        K[Demand Forecasting<br/>Product-Level Prediction]
+        G[Forecasting Models<br/>Time Series Analysis]
+        H[Classification Models<br/>Customer Behavior]
+        I[Regression Models<br/>Value Prediction]
     end
     
     subgraph "Presentation Layer"
-        L[Streamlit Dashboard<br/>Interactive Visualizations]
-        M[Executive Reports<br/>Automated Insights]
-        N[Data Export<br/>CSV/JSON Formats]
+        J[Streamlit Dashboard<br/>Interactive Interface]
+        K[Automated Reports<br/>Executive Summaries]
     end
     
     A --> D
     A --> E
     A --> F
-    A --> G
     
-    D --> H
-    E --> I
-    E --> J
-    F --> K
+    D --> G
+    E --> H
+    F --> I
     
-    H --> L
-    I --> L
-    J --> L
-    K --> L
+    G --> J
+    H --> J
+    I --> J
     
-    L --> M
-    L --> N
+    J --> K
 ```
 
-<details>
-<summary><strong>📋 Architecture Details</strong></summary>
+**Architecture Components**
 
 **Data Layer**
-- PostgreSQL database with optimized schema for analytical queries
-- Synthetic data generation producing realistic e-commerce patterns
-- Materialized views for complex joins and aggregations
-- Strategic indexing for sub-second query performance
+- PostgreSQL database with normalized schema optimized for analytical workloads
+- Synthetic data generation producing three years of realistic e-commerce transaction patterns
+- Materialized views for complex aggregations with automatic refresh capabilities
+- Strategic indexing implementation for sub-second query response times
 
 **Analytics Engine**
-- Modular analytics classes for different business domains
-- SQL-based aggregations with pandas post-processing
-- Statistical analysis including seasonality and trend detection
-- Geographic and temporal pattern recognition
+- Modular analysis classes with standardized interfaces for consistent data processing
+- SQL-based aggregations combined with pandas operations for complex transformations
+- Statistical analysis modules for trend detection, seasonality identification, and correlation studies
+- Geographic and temporal pattern recognition with automated insight generation
 
 **Machine Learning Pipeline**
-- Ensemble methods for sales forecasting (Random Forest, Gradient Boosting)
-- Customer lifetime value prediction using regression techniques
-- Churn prediction with classification algorithms
-- Feature engineering including lag variables and rolling averages
+- Ensemble forecasting methods combining Random Forest and Gradient Boosting algorithms
+- Customer lifetime value prediction using regression techniques with feature engineering
+- Churn prediction models with precision-recall optimization for business actionability
+- Automated model selection and validation with cross-validation and holdout testing
 
 **Presentation Layer**
-- Interactive Streamlit dashboard with real-time updates
-- Plotly visualizations for professional-grade charts
-- Executive summary generation with key insights
-- Data export capabilities for further analysis
-
-</details>
-
-### Design Patterns Implemented
-- **Data Access Object (DAO)** - Clean database interaction layer
-- **Strategy Pattern** - Multiple ML model implementations with consistent interface
-- **Observer Pattern** - Real-time dashboard updates when data changes
-- **Factory Pattern** - Database connection and model instantiation
-- **Template Method** - Common analytics workflow with specialized implementations
+- Interactive Streamlit dashboard with real-time data refresh and user filtering capabilities
+- Professional visualization library integration for executive-level chart quality
+- Automated insight generation with natural language summaries of key findings
+- Data export functionality supporting multiple formats for further analysis
 
 ---
 
-## Database Design & Analytics
+## Database Design
 
-### Optimized Schema for Analytics
+The database schema implements a normalized structure optimized for both transactional integrity and analytical performance. The design supports complex queries while maintaining data consistency through proper foreign key relationships and constraints.
 
 ```sql
--- Core Business Entities
-customers (5,000 records)          products (1,000 records)
-├── customer_id (SERIAL PK)        ├── product_id (SERIAL PK)
-├── email (UNIQUE, INDEXED)        ├── product_name (INDEXED)
-├── registration_date (INDEXED)    ├── category (INDEXED)
-├── country (INDEXED)              ├── brand (INDEXED)
-├── age_group (INDEXED)            ├── price (DECIMAL, INDEXED)
-└── customer_segment               └── cost (DECIMAL)
+-- Customer Management
+customers (5,000 records)
+├── customer_id (SERIAL PK)
+├── email (UNIQUE, INDEXED)
+├── registration_date (INDEXED)
+├── country (INDEXED)
+├── age_group (INDEXED)
+└── customer_segment
 
--- Transaction Data (100,000+ records)
-orders                             order_items
-├── order_id (SERIAL PK)          ├── item_id (SERIAL PK)
-├── customer_id (FK, INDEXED)     ├── order_id (FK, INDEXED)
-├── order_date (INDEXED)          ├── product_id (FK, INDEXED)
-├── total_amount (DECIMAL)        ├── quantity (INTEGER)
-├── status (ENUM, INDEXED)        ├── unit_price (DECIMAL)
-└── payment_method                └── total_price (DECIMAL)
+-- Product Catalog
+products (1,000 records)
+├── product_id (SERIAL PK)
+├── product_name (INDEXED)
+├── category (INDEXED)
+├── brand (INDEXED)
+├── price (DECIMAL, INDEXED)
+└── cost (DECIMAL)
+
+-- Transaction Records
+orders (50,000+ records)
+├── order_id (SERIAL PK)
+├── customer_id (FK, INDEXED)
+├── order_date (INDEXED)
+├── total_amount (DECIMAL)
+├── status (ENUM, INDEXED)
+└── payment_method
+
+order_items (75,000+ records)
+├── item_id (SERIAL PK)
+├── order_id (FK, INDEXED)
+├── product_id (FK, INDEXED)
+├── quantity (INTEGER)
+├── unit_price (DECIMAL)
+└── total_price (DECIMAL)
 ```
 
-### Analytics Views & Performance
+**Performance Optimizations**
+- B-tree indexes on frequently queried columns improving query execution performance
+- Materialized views for complex analytical queries with scheduled refresh operations
+- Connection pooling configuration for concurrent user support and resource optimization
+- Query optimization through strategic JOIN ordering and WHERE clause positioning
 
+**Analytics Views**
 ```sql
--- Customer Summary View (RFM Analysis)
+-- Customer behavior analysis
 CREATE VIEW customer_summary AS
 SELECT 
     c.customer_id,
@@ -286,7 +277,7 @@ FROM customers c
 LEFT JOIN orders o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id;
 
--- Product Performance View
+-- Product performance metrics
 CREATE VIEW product_performance AS
 SELECT 
     p.product_id,
@@ -300,141 +291,132 @@ LEFT JOIN order_items oi ON p.product_id = oi.product_id
 GROUP BY p.product_id, p.product_name, p.category;
 ```
 
-### Performance Optimizations
-- **Strategic Indexing** - B-tree indexes on frequently queried columns (40% query speed improvement)
-- **Materialized Views** - Pre-computed analytics tables refreshed nightly
-- **Query Optimization** - Efficient JOIN strategies and WHERE clause ordering
-- **Connection Pooling** - Managed database connections for concurrent analytics
-
 ---
 
 ## Machine Learning Models
 
-### Sales Forecasting Engine
-Advanced time series forecasting with ensemble methods achieving 85%+ accuracy:
+The machine learning pipeline implements multiple algorithms with automated model selection based on performance metrics. Each model includes comprehensive validation procedures and business-relevant evaluation criteria.
+
+**Sales Forecasting System**
+Time series forecasting using ensemble methods with feature engineering for improved accuracy:
 
 ```python
-# Model Architecture
+# Model ensemble configuration
 models = {
-    'Random Forest': RandomForestRegressor(n_estimators=100),
-    'Gradient Boosting': GradientBoostingRegressor(n_estimators=100),
+    'Random Forest': RandomForestRegressor(n_estimators=100, random_state=42),
+    'Gradient Boosting': GradientBoostingRegressor(n_estimators=100, random_state=42),
     'Linear Regression': LinearRegression()
 }
 
-# Feature Engineering
+# Feature engineering pipeline
 features = [
-    'trend', 'seasonality', 'day_of_week', 'month', 'quarter',
-    'revenue_lag_7', 'revenue_lag_30', 'revenue_ma_7', 'revenue_ma_30'
+    'trend_component', 'seasonal_indicators', 'day_of_week_encoding',
+    'month_encoding', 'quarter_encoding', 'revenue_lag_7', 'revenue_lag_30',
+    'revenue_moving_avg_7', 'revenue_moving_avg_30'
 ]
 ```
 
-**Model Performance Metrics:**
-- **Forecast Accuracy**: 85%+ R² score on test data
-- **Prediction Horizon**: 90-day revenue forecasting
-- **Model Selection**: Automated best model selection based on cross-validation
-- **Business Impact**: Quantified revenue predictions for strategic planning
+**Performance Targets**
+- Forecast accuracy optimization through cross-validation and model comparison
+- 90-day prediction horizon with confidence interval estimation for business planning
+- Automated model selection using multiple algorithms and validation techniques
+- Feature importance analysis for understanding key revenue drivers
 
-### Customer Analytics Suite
+**Customer Analytics Models**
 
-**RFM Segmentation Model**
+**RFM Segmentation Framework**
 ```python
-# Customer Segments Identified
+# Customer segmentation categories
 segments = {
-    'Champions': 'Recent, frequent, high-value customers',
-    'Loyal Customers': 'Regular customers with good value',
-    'Potential Loyalists': 'Recent customers with growth potential',
-    'At Risk': 'Previously valuable customers showing decline',
-    'Cannot Lose Them': 'High-value customers with low recent activity',
-    'Lost': 'Inactive customers requiring win-back campaigns'
+    'Champions': 'High-value customers with recent, frequent purchases',
+    'Loyal Customers': 'Consistent customers with strong engagement patterns',
+    'Potential Loyalists': 'Recent customers showing growth potential',
+    'At Risk': 'Previously valuable customers with declining activity',
+    'Cannot Lose Them': 'High-value customers requiring retention focus',
+    'Lost Customers': 'Inactive customers needing reactivation campaigns'
 }
 ```
 
 **Customer Lifetime Value Prediction**
-- **Model Type**: Random Forest Regression
-- **Features**: Purchase frequency, average order value, customer tenure, geographic data
-- **Accuracy**: 82%+ R² score for CLV prediction
-- **Business Value**: Customer acquisition cost optimization and retention strategy
+- Random Forest regression model with customer behavioral features
+- Feature set including purchase frequency, average order value, tenure, and geographic indicators
+- Model validation through cross-validation for CLV estimation supporting acquisition cost decisions
+- Business application for customer acquisition cost optimization and retention budget allocation
 
 **Churn Prediction Model**
-- **Model Type**: Random Forest Classification
-- **Performance**: 85%+ AUC score for churn identification
-- **Risk Categories**: High, Medium, Low risk segmentation
-- **Actionable Insights**: Proactive retention campaign targeting
+- Binary classification using Random Forest with class balancing for rare event prediction
+- Performance optimization through precision-recall analysis for business actionability
+- Risk scoring system with high, medium, and low risk categorization for operational use
+- Integration with customer success workflows for proactive retention campaigns
 
 ---
 
 ## Interactive Dashboard
 
-### Executive Dashboard Features
+The dashboard provides executive-level visualizations with drill-down capabilities for detailed analysis. Built using Streamlit for rapid development and Plotly for professional-grade interactive charts.
 
-<div align="center">
+**Dashboard Architecture**
 
-| Dashboard Section | Key Metrics | Visualizations |
-|-------------------|-------------|----------------|
-| **Revenue Overview** | Total Revenue, Growth Rate, AOV | Time series, KPI cards |
-| **Customer Insights** | Segments, CLV, Churn Risk | Pie charts, scatter plots |
-| **Product Performance** | Top sellers, Profitability | Bar charts, treemaps |
-| **Geographic Analysis** | Regional performance | Maps, regional comparison |
-| **ML Predictions** | Forecasts, Risk scores | Prediction charts, confidence intervals |
+| Section | Metrics | Visualization Types |
+|---------|---------|-------------------|
+| **Revenue Analytics** | Total Revenue, Growth Rate, Average Order Value | Time series charts, KPI indicators |
+| **Customer Intelligence** | Segment distribution, CLV analysis, Churn risk | Pie charts, scatter plots, risk matrices |
+| **Product Performance** | Top sellers, Profit margins, Category analysis | Bar charts, treemaps, performance grids |
+| **Geographic Insights** | Regional performance, Market penetration | Geographic maps, regional comparisons |
+| **Predictive Analytics** | Forecast results, Confidence intervals | Prediction charts, scenario analysis |
 
-</div>
+**Interactive Features**
+- Real-time data filtering with date range selection and segment isolation
+- Drill-down capabilities from summary views to detailed transaction analysis
+- Export functionality for chart data and generated insights in multiple formats
+- Mobile-responsive design for executive access across device types
+- Automated insight generation with natural language summaries of key findings
 
-### Dashboard Capabilities
-- **Real-time Updates** - Live data refresh with caching for performance
-- **Interactive Filtering** - Dynamic date ranges, segment filtering, product categories
-- **Drill-down Analysis** - Click-through from summary to detailed views
-- **Export Functionality** - CSV/JSON export for further analysis
-- **Mobile Responsive** - Optimized for desktop, tablet, and mobile viewing
-- **Executive Summary** - Automated insights generation with key takeaways
-
-### Visualization Technologies
-- **Plotly** - Interactive charts with zoom, pan, and hover capabilities
-- **Streamlit Components** - Custom widgets for advanced filtering
-- **CSS Styling** - Professional visual design with corporate color schemes
-- **Performance Optimization** - Cached data loading and lazy rendering
+**Technical Implementation**
+- Streamlit framework for rapid prototyping and deployment with built-in state management
+- Plotly integration for interactive charts with professional styling and performance optimization
+- Caching strategies for large dataset handling with automatic cache invalidation
+- Component modularity for maintainable code organization and testing capabilities
 
 ---
 
 ## Getting Started
 
-> **Note**: Project is currently in development. Setup instructions will be finalized upon completion.
+**Development Environment Requirements**
+- Python 3.9 or higher with pip package management
+- PostgreSQL 13 or higher with administrative access for database creation
+- Git for version control and collaborative development
+- 8GB RAM recommended for large dataset processing and model training
 
-### Quick Setup (Development Environment)
+**Installation Process**
 
 ```bash
-# 1. Clone repository
-git clone https://github.com/yourusername/sales-analytics-platform.git
+# Repository setup
+git clone https://github.com/miasdk/sales-analytics-platform.git
 cd sales-analytics-platform
 
-# 2. Create virtual environment
+# Python environment configuration
 python -m venv sales_analytics_env
 source sales_analytics_env/bin/activate  # Linux/Mac
 # sales_analytics_env\Scripts\activate   # Windows
 
-# 3. Install dependencies
+# Dependency installation
 pip install -r requirements.txt
 
-# 4. Database setup
+# Database initialization
 createdb sales_analytics
 python src/database_setup.py
 
-# 5. Generate analytics data
+# Analytics engine execution
 python src/analytics_engine.py
 
-# 6. Launch dashboard (when ready)
+# Dashboard launch
 streamlit run src/streamlit_app.py
 ```
 
-<details>
-<summary><strong>🔧 Prerequisites & Environment Setup</strong></summary>
+**Configuration Requirements**
 
-**Prerequisites**
-- Python 3.9 or higher
-- PostgreSQL 13 or higher
-- 8GB RAM (recommended for large dataset processing)
-- Git for version control
-
-**Database Configuration**
+Database connection configuration:
 ```python
 db_config = {
     'host': 'localhost',
@@ -445,141 +427,119 @@ db_config = {
 }
 ```
 
-**Environment Variables**
+Environment variables for production deployment:
 ```bash
 export DATABASE_URL="postgresql://username:password@localhost:5432/sales_analytics"
 export ENVIRONMENT="development"
 export LOG_LEVEL="INFO"
 ```
 
-**Development Tools**
-- Jupyter Notebook for data exploration
-- pgAdmin for database management
-- VS Code with Python extensions
-- Git for version control
-
-</details>
-
 ---
 
 ## Implementation Timeline
 
-### 7-Day Sprint Development Plan
+**7-Day Development Sprint**
 
-| Day | Focus Area | Deliverables | Status |
-|-----|------------|--------------|--------|
-| **Day 1** | Database Foundation | Schema design, data generation scripts | ![Complete](https://img.shields.io/badge/🟢-Complete-success) |
-| **Day 2** | Analytics Engine | Sales analytics, customer segmentation | ![In Progress](https://img.shields.io/badge/🟡-In_Progress-yellow) |
-| **Day 3** | Product Analytics | Performance analysis, inventory insights | ![Planned](https://img.shields.io/badge/🔵-Planned-blue) |
-| **Day 4** | ML Models | Forecasting, CLV, churn prediction | ![Planned](https://img.shields.io/badge/🔵-Planned-blue) |
-| **Day 5** | Advanced Analytics | Geographic analysis, seasonality detection | ![Planned](https://img.shields.io/badge/🔵-Planned-blue) |
-| **Day 6** | Dashboard Development | Streamlit app, visualizations | ![Planned](https://img.shields.io/badge/🔵-Planned-blue) |
-| **Day 7** | Polish & Deploy | Documentation, deployment, testing | ![Planned](https://img.shields.io/badge/🔵-Planned-blue) |
+| Day | Focus Area | Deliverables | Success Criteria |
+|-----|------------|--------------|-----------------|
+| **Day 1** | Database Architecture | Schema design, data generation | 100K+ transactions generated successfully |
+| **Day 2** | Analytics Foundation | Sales trends, customer analysis | Core metrics calculation validated |
+| **Day 3** | Product Analytics | Performance analysis, inventory insights | Profitability analysis operational |
+| **Day 4** | Machine Learning | Forecasting models, validation | Model implementation and validation complete |
+| **Day 5** | Advanced Analytics | Geographic analysis, seasonality | Pattern recognition functional |
+| **Day 6** | Dashboard Development | Streamlit interface, visualizations | Interactive dashboard deployed |
+| **Day 7** | Integration & Testing | End-to-end testing, documentation | Full system integration complete |
 
-### Current Development Focus
-- **Core Analytics Implementation** - Building sales trend analysis and customer segmentation
-- **Data Quality Validation** - Ensuring synthetic data represents realistic business patterns
-- **Performance Optimization** - Database query optimization and caching strategies
-- **Architecture Refinement** - Modular code design for scalability and maintainability
+**Quality Assurance Process**
+- Daily code reviews with documentation updates for maintainability
+- Unit testing implementation for critical analytical functions
+- Performance benchmarking for query optimization and response time validation
+- User interface testing across different screen sizes and browsers
 
 ---
 
 ## Technical Achievements
 
-### Data Engineering Excellence
-- **Scalable Architecture** - Handles 100K+ transactions with sub-second query response
-- **Professional Database Design** - Normalized schema with proper indexing and constraints
-- **ETL Pipeline** - Robust data generation and processing workflows
-- **Performance Optimization** - Strategic indexing reducing query time by 70%
+**Data Engineering Excellence**
+- Scalable architecture supporting large transaction datasets with optimized query performance
+- Professional database design with normalized schema, proper indexing, and foreign key constraints
+- Robust ETL pipeline with error handling, logging, and data validation procedures
+- Performance optimization through strategic indexing and query optimization techniques
 
-### Advanced Analytics Implementation
-- **Statistical Analysis** - Seasonality detection, trend analysis, and correlation studies
-- **Customer Intelligence** - RFM segmentation with actionable business insights
-- **Product Analytics** - Profit margin analysis and inventory optimization recommendations
-- **Geographic Intelligence** - Regional performance analysis and market penetration metrics
+**Advanced Analytics Implementation**
+- Comprehensive statistical analysis including seasonality detection, trend analysis, and correlation studies
+- Customer intelligence system with RFM segmentation providing actionable business insights
+- Product analytics framework with profit margin analysis and inventory optimization recommendations
+- Geographic analysis capabilities for regional performance evaluation and market expansion planning
 
-### Machine Learning Engineering
-- **Model Selection** - Automated comparison of multiple algorithms with performance metrics
-- **Feature Engineering** - Advanced feature creation including lag variables and rolling statistics
-- **Model Validation** - Cross-validation and holdout testing ensuring model reliability
-- **Production Readiness** - Scalable ML pipeline design for real-world deployment
+**Machine Learning Engineering**
+- Automated model selection process comparing multiple algorithms with standardized evaluation metrics
+- Advanced feature engineering including lag variables, rolling statistics, and categorical encoding
+- Comprehensive model validation using cross-validation and holdout testing procedures
+- Production-ready ML pipeline design with monitoring capabilities and retraining procedures
 
-### Software Engineering Best Practices
-- **Clean Code Architecture** - Modular design with clear separation of concerns
-- **Documentation Standards** - Comprehensive code documentation and technical specifications
-- **Error Handling** - Robust exception handling and logging throughout the application
-- **Testing Framework** - Unit tests and integration tests ensuring code reliability
+**Software Engineering Standards**
+- Modular architecture with clear separation of concerns and standardized interfaces
+- Comprehensive documentation including code comments, API documentation, and user guides
+- Robust error handling and logging throughout the application stack
+- Automated testing framework with unit tests and integration tests for reliability assurance
 
 ---
 
 ## Future Enhancements
 
-### Phase 2 Development 
-- **Real-time Analytics** - Apache Kafka integration for streaming data processing
-- **Advanced ML Models** - Deep learning for demand forecasting and recommendation engines
-- **Cloud Deployment** - AWS/GCP deployment with auto-scaling and monitoring
-- **API Development** - RESTful API for analytics data consumption
+**Phase 2 Development Roadmap**
+- Real-time analytics pipeline using Apache Kafka for streaming data processing
+- Advanced machine learning models including deep learning for demand forecasting
+- Cloud deployment architecture using AWS or Google Cloud Platform with auto-scaling
+- RESTful API development for analytics data consumption by external applications
 
-### Enterprise Features
-- **Multi-tenant Architecture** - Support for multiple business units or clients
-- **Advanced Security** - Role-based access control and data encryption
-- **Audit Logging** - Comprehensive activity tracking and compliance reporting
-- **Integration Capabilities** - Connectors for Salesforce, HubSpot, and other business systems
+**Enterprise Integration Features**
+- Multi-tenant architecture supporting multiple business units with data isolation
+- Advanced security implementation including role-based access control and data encryption
+- Comprehensive audit logging for regulatory compliance and activity monitoring
+- Integration capabilities with popular business systems including Salesforce and HubSpot
 
-### Advanced Analytics
-- **A/B Testing Framework** - Statistical testing for business decision validation
-- **Anomaly Detection** - Automated identification of unusual patterns and outliers
-- **Predictive Inventory** - AI-powered inventory optimization and demand planning
-- **Marketing Attribution** - Multi-touch attribution modeling for marketing ROI
+**Advanced Analytics Capabilities**
+- A/B testing framework for statistical validation of business decisions
+- Anomaly detection system for automated identification of unusual patterns
+- Predictive inventory management with demand forecasting and optimization algorithms
+- Marketing attribution modeling for multi-touch campaign effectiveness analysis
 
 ---
+
 ## About This Project
 
 **Developer**: Mia Tapia  
 **Institution**: CUNY Hunter College  
-**Academic Level**: Upper Junior  
-**Development Timeline**: 7-day intensive sprint  
-**Purpose**: Internship application portfolio enhancement
+**Academic Status**: Upper Junior Computer Science Student  
+**Development Period**: 7-day intensive development sprint  
+**Project Purpose**: Technical skill demonstration for software engineering internship applications
 
-### Project Motivation
+**Project Motivation**
 
-This Sales Analytics Platform was conceived to demonstrate advanced data science capabilities that complement my existing full-stack development experience. As software engineering roles increasingly require data literacy, this project bridges the gap between traditional web development and modern data-driven decision making.
+This project represents a strategic expansion of my technical capabilities from full-stack web development into data science and machine learning. As software engineering roles increasingly require data literacy and analytical thinking, this platform demonstrates the ability to work across the entire data pipeline from raw storage to executive insights.
 
-**Career Strategy**
-- **Skill Diversification** - Adding data science to full-stack development expertise
-- **Market Differentiation** - Standing out from frontend/backend-only candidates
-- **Industry Relevance** - Addressing the growing demand for data-literate engineers
-- **Technical Leadership** - Demonstrating ability to architect complex analytical systems
+The choice to build a comprehensive analytics platform reflects my understanding of modern business requirements where technical solutions must directly support strategic decision-making. Rather than focusing on theoretical algorithms, this project emphasizes practical business applications with measurable impact on key performance indicators.
 
-### Learning Outcomes
+**Technical Learning Objectives**
+- Advanced SQL query optimization and database performance tuning for large datasets
+- Machine learning model development with proper validation and business metric alignment
+- Time series analysis and forecasting techniques applicable to business planning scenarios
+- Interactive dashboard development with executive-level visualization standards
+- Data pipeline architecture design for scalability and maintainability in production environments
 
-**Technical Skills Developed**
-- Advanced SQL optimization and database design
-- Machine learning model selection and validation
-- Time series analysis and forecasting techniques
-- Interactive dashboard development with Streamlit
-- Performance optimization for large datasets
+**Professional Development Goals**
+- Demonstrate versatility beyond traditional web development through data science capabilities
+- Show understanding of business intelligence requirements and executive-level communication
+- Build portfolio project suitable for technical interviews with live demonstration capabilities
+- Develop expertise in technologies commonly used in data-driven software engineering roles
 
-**Business Skills Gained**
-- Customer segmentation and lifecycle analysis
-- Revenue forecasting and business planning
-- KPI development and executive reporting
-- Data storytelling and insight communication
-- Strategic thinking around data-driven decisions
+**Implementation Philosophy**
 
-### Development Philosophy
+The project prioritizes practical application over academic theory, focusing on solutions that would provide immediate business value in a real-world environment. Code quality follows professional standards suitable for team collaboration, with comprehensive documentation and testing procedures that demonstrate understanding of software development best practices.
 
-This project emphasizes **practical application** over theoretical knowledge, focusing on:
-- **Real-world relevance** - Solving actual business problems with quantifiable impact
-- **Production readiness** - Code quality suitable for enterprise deployment
-- **Scalable architecture** - Design patterns that support future growth
-- **Professional documentation** - Standards exceeding typical student projects
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This approach reflects preparation for software engineering roles where business impact and technical excellence must be balanced, showing ability to translate complex technical implementations into clear business value propositions.
 
 ---
 
@@ -588,17 +548,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **GitHub**: [@miasdk](https://github.com/miasdk)
 - **Email**: miatapiaswe@gmail.com
 - **LinkedIn**: [Mia Elena](https://www.linkedin.com/in/miaelena/)
-- **Project Repository**: [Sales Analytics Platform](https://github.com/yourusername/sales-analytics-platform)
+- **Project Repository**: [Sales Analytics Platform](https://github.com/miasdk/sales-analytics-platform)
 
 ---
 
 <div align="center">
 
-**🚧 Active Development - Check back for updates! 🚧**
+**Active Development In Progress**
 
-Built with dedication by [Mia Tapia](https://github.com/miasdk) | CUNY Hunter College
-
-[![Follow Development](https://img.shields.io/github/watchers/yourusername/sales-analytics-platform?style=social)](https://github.com/yourusername/sales-analytics-platform)
-[![Star Project](https://img.shields.io/github/stars/yourusername/sales-analytics-platform?style=social)](https://github.com/yourusername/sales-analytics-platform)
+Built by [Mia Tapia](https://github.com/miasdk) | CUNY Hunter College
 
 </div>
